@@ -238,3 +238,75 @@ Para calcular la depreciación los métodos más usados son:
     Considerando los mismos valores anteriores y si tenemos que el gravamen del capital en un banco se efectua al --
     anual, obtenemos los siguientes valores:
 \end{example}
+\begin{example}
+    Si consideramos para un modular un valor original de \textdollar2,250.00 y un valor de desecho de \textdollar1,500.00,
+    y si suponemos que tendra una vida de servicio de 5 años obtendremos una depreciación de:
+    \[DL=\frac{V_o-V_d}{m}=\frac{2,250.00-1,500.00}{5}=\text{\textdollar}150.00\]
+    \[\frac{\text{Depreciación anual}}{2}=\frac{12.50}{2}=6.25\]
+    
+    \textbf{Amortización}: considerando los mismos valores anteriores y si tenemos que el gravamen del capital en un banco se efectua al 6\% anual,
+    obtendremos los siguientes valores.
+
+    $V_o=$\textdollar2,250.00; $V_d=$\textdollar1,500.00; $t=6\%$; $n=5$ años
+    \[\frac{(V_o-V_d)t}{r^n-1}=\frac{(\text{\textdollar}2,2500.00-\text{\textdollar}1,500.00)(0.06)}{(1+0.06)^5-1}=\text{\textdollar}133.05\]
+    \[\text{Cantidad a depositar anualmente}=\text{\textdollar}133.05\]
+    
+    \textbf{Primer año}
+    \[\text{Interes}=0\]
+    \[\text{Dep an}=133.05\]
+    \[\text{Dep ac}=133.05\]
+
+    \textbf{Segundo año}
+    \[\text{Interes}=133.05\cdot0.06=7.98\]
+    \[\text{Dep an}=(7.98-0)+133.05=141.03\]
+    \[\text{Dep ac}=141.03+133.05=274.08\]
+
+    \textbf{Tercer año}
+    \[\text{Interes}=274.08\cdot0.06=16.44\]
+    \[\text{Dep an}=(16.44-7.98)+141.03=149.49\]
+    \[\text{Dep ac}=149.49+274.08=423.57\]
+    \[\vdots\]
+
+    Los resultados se resumen en la tabla \ref{tab:ejemplo1pdf}, de la que $133.05\cdot5=665.25$ y $84.75+665.25=750.00$.
+    \begin{table}
+        \centering
+        \begin{tabular}{c c c c}
+            \textbf{Años} & \textbf{Interes} & \makecell{\textbf{Depreciación}\\\textbf{anual}} & \makecell{\textbf{Depreciación}\\\textbf{acumulada}} \\
+            1 & 0.0 & 133.05 & 133.05 \\
+            2 & 7.98 & 141.03 & 274.08 \\
+            3 & 16.44 & 149.49 & 423.57 \\
+            4 & 25.41 & 158.46 & 582.03 \\
+            5 & 34.92 & 167.97 & 750.00 \\
+            \cline{2-3}
+            & 84.75 & 750.00 &
+        \end{tabular}
+        \caption{Resultados del ejemplo 4.3}
+        \label{tab:ejemplo1pdf}
+    \end{table}
+\end{example}
+\begin{example}
+    Si consideramos para un auto utilitario un valor de \textdollar140,000.00 y un valor de desecho de \textdollar70,000.00, y si suponemos que
+    tendrá una vida util de 5 años obtenemos una depreciación de:
+    \[DL=\frac{V_o-V_d}{n}=\frac{\text{\textdollar}140,000.00-\text{\textdollar}70,000.00}{5}=\text{\textdollar}14,000.00\]
+
+    \textbf{Amortización}: considerando los mismos valores anteriores y si tenemos que el gravamen del capital en un banco se efectua al 6\% anual,
+    obtendremos los siguientes valores:
+    \[D=\frac{(V_o-V_d)t}{r^n-1}=\frac{(\text{\textdollar}140,000.00-\text{\textdollar}70,000.00)(0.06)}{1.06^5-1}=\text{\textdollar}12,352.94\]
+
+    Siguiendo los mismos pasos del ejemplo anterior, se resumen los resultados en la tabla \ref{tab:ejemplo2pdf}, de la que $7,869.97\cdot5=61,764.70$ y $7,869.97+61,764.70=69,634.67$.
+    \begin{table}
+        \centering
+        \begin{tabular}{c c c c}
+            \textbf{Años} & \textbf{Interes} & \makecell{\textbf{Depreciación}\\\textbf{anual}} & \makecell{\textbf{Depreciación}\\\textbf{acumulada}} \\
+            1 & 0.00 & 12,352.94 & 12,352.94 \\
+            2 & 741.18 & 13,094.12 & 25,442.06 \\
+            3 & 1,526.82 & 13,879.76 & 39,326.82 \\
+            4 & 2,359.61 & 14,712.55 & 54,039.37 \\
+            5 & 3,242.36 & 15,595.30 & 69,634.67 \\
+            \cline{2-3}
+            & 7,869.97 & 69,634.67 &
+        \end{tabular}
+        \caption{Resultados del ejemplo 4.4}
+        \label{tab:ejemplo2pdf}
+    \end{table}
+\end{example}
