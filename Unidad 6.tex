@@ -1,0 +1,48 @@
+\chapter{Evalucaión economica y analisis de sensibilidad}
+\section{Rentabilidad}
+De los diversos enigmas de aternativas multiples, los más determinantes y complicados en su
+resolución son aquellos que aluden a inversiones propuestas en nuevos bienes, los cuales son
+considerados como problemas de presupuestos de inversión. Estas dificultades son importantes,
+y se consideran así no unicamente por el motivo de las grandes cantidades de capital por invertir,
+sino por que la resolución que se efectue puede influir sobre la dirección de la empresa
+durante años, y son complicados ya que requieren la estimación de las condiciones dominantes
+durante varios años en el comportamiento futuro y también por que se requiere determinar la
+asignación para las diferencias de oportunidad en que se producen los ingresos y egresos más
+sobresalientes en lo que se refiere al capital.
+\section{Valor presente neto}
+La complicaión a solucionar en un asunto de inversión consiste en resolver si la inversión
+en proposición se justifica por los ingresos que producira en el tiempo de su existencia. Un
+emprendimiento invertira determinado capital en este momento tan sólo el espera para obtener
+algo más de esa cantidad invertida en el futuro.
+
+Las técnicas que se descrbierán son sistemas para comparar los siguientes componentes diferentes.
+\begin{itemize}
+    \item Una sola inversión, de manera de que una suma global, la cual se enfoca en el momento actual.
+    \item Una sucesión de ingresos futuros.
+\end{itemize}
+
+El valor presente neto (VPN) es un indicador que se basa en el descuento de flujo de fondos, es decir,
+el beneficio neto de cada período futuro descontada a una tasa dada para llegar a obtener el valor
+presente. La suma de todos los ejercicios futuros neutralizados es el VPN. Los valores obtenidos en este
+material se usaran en la hoja 75.
+\[VPN=-X+\sum_{n = 1}^{n}\frac{A_n}{(1+i)^n}\]
+
+A continuación podemos observar el siguiente flujo de fondos y el calculo de su correspondiente VPN.
+\begin{example} Tasa de descuento $i=10\%=0.1$ 
+
+    \centering{
+        \begin{tabular}{c c c c c c}
+            0 & 1 & 2 & 3 & 4 & 5 \\
+            -130 & 10 & 40 & 50 & 60 & 70
+        \end{tabular}}
+    \[VPN=-130+\frac{10}{1.1}+\frac{40}{1.21}+\frac{50}{1.331}+\frac{60}{1.4641}+\frac{70}{1.61051}\approx34.16\]
+\end{example}
+\begin{example} Tasa de descuento $i=20\%=0.2$
+        
+     \centering{\begin{tabular}{c c c c c c}
+            0 & 1 & 2 & 3 & 4 & 5 \\
+            -450 & -10 & 110 & 150 & 190 & 230
+        \end{tabular}}
+    \[VPN=-450+\frac{-10}{1.2}+\frac{110}{1.44}+\frac{150}{1.728}+\frac{190}{2.0736}+\frac{230}{2.48832}\approx-110.07\]
+\end{example}
+\section{Tasa interna de rendimiento}
