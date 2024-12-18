@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.10.15)  17 DEC 2024 22:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.10.15)  17 DEC 2024 23:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -9,8 +9,8 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
 (/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2023/05/17 v1.4n Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/bk12.clo
-File: bk12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+(/usr/share/texlive/texmf-dist/tex/latex/base/bk10.clo
+File: bk10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count187
 \c@chapter=\count188
@@ -325,21 +325,22 @@ Package hyperref Info: Link coloring OFF on input line 20.
 ] (./raiz.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
- [3])
+)
 \tf@toc=\write4
 \openout4 = `raiz.toc'.
 
-LaTeX Info: Redefining \. on input line 24.
-LaTeX Info: Redefining \% on input line 24.
- [4]
+ [3]
 \openout2 = `"Unidad 1.aux"'.
 
  (./Unidad 1.tex
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+ [4
+
+
+]
 Cap\'{\i }tulo 1.
-[1
-
-
-])
+[1])
 LaTeX Info: Redefining \. on input line 24.
 LaTeX Info: Redefining \% on input line 24.
  [2]
@@ -347,21 +348,33 @@ LaTeX Info: Redefining \% on input line 24.
 
  (./Unidad 2.tex
 Cap\'{\i }tulo 2.
+
+Overfull \hbox (12.87315pt too wide) in paragraph at lines 23--23
+[]\OT1/cmr/bx/n/14.4 Fortalezas, opor-tu-ni-da-des, de-bi-li-da-des y ame-
+ []
+
 [3
 
 
 
 
-]
-LaTeX Info: Redefining \. on input line 47.
-LaTeX Info: Redefining \% on input line 47.
- [4])
+])
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
- [5]
+ [4]
 \openout2 = `"Unidad 3.aux"'.
 
  (./Unidad 3.tex
+Cap\'{\i }tulo 3.
+) [5
+
+
+
+
+]
+\openout2 = `"Unidad 4.aux"'.
+
+ (./Unidad 4.tex
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
  [6
@@ -370,73 +383,52 @@ LaTeX Info: Redefining \% on input line 1.
 
 
 ]
-Cap\'{\i }tulo 3.
-) [7]
-\openout2 = `"Unidad 4.aux"'.
+Cap\'{\i }tulo 4.
+[7]
+LaTeX Info: Redefining \. on input line 84.
+LaTeX Info: Redefining \% on input line 84.
+ [8]
+LaTeX Info: Redefining \. on input line 155.
+LaTeX Info: Redefining \% on input line 155.
+ [9{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+LaTeX Info: Redefining \. on input line 192.
+LaTeX Info: Redefining \% on input line 192.
+ [10]
+LaTeX Info: Redefining \. on input line 245.
+LaTeX Info: Redefining \% on input line 245.
+ [11]
+LaTeX Info: Redefining \. on input line 312.
+LaTeX Info: Redefining \% on input line 312.
+ [12])
+LaTeX Info: Redefining \. on input line 27.
+LaTeX Info: Redefining \% on input line 27.
+ [13]
+\openout2 = `"Unidad 6.aux"'.
 
- (./Unidad 4.tex
+ (./Unidad 6.tex
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
- [8
+ [14
 
 
 
 
 ]
-Cap\'{\i }tulo 4.
-[9]
-LaTeX Info: Redefining \. on input line 50.
-LaTeX Info: Redefining \% on input line 50.
- [10]
-LaTeX Info: Redefining \. on input line 125.
-LaTeX Info: Redefining \% on input line 125.
- [11]
-LaTeX Info: Redefining \. on input line 167.
-LaTeX Info: Redefining \% on input line 167.
- [12{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-LaTeX Info: Redefining \. on input line 198.
-LaTeX Info: Redefining \% on input line 198.
- [13]
-Overfull \hbox (5.07207pt too wide) in paragraph at lines 242--244
-[][]\OT1/cmr/m/it/12 Si con-si-de-ra-mos pa-ra un mo-du-lar un va-lor ori-gi-nal de \TS1/cmr/m/it/12 $\OT1/cmr/m/it/12 2,250.00
- []
-
-LaTeX Info: Redefining \. on input line 244.
-LaTeX Info: Redefining \% on input line 244.
-[14]
-Overfull \hbox (3.72205pt too wide) in paragraph at lines 288--290
-[][]\OT1/cmr/m/it/12 Si con-si-de-ra-mos pa-ra un au-to uti-li-ta-rio un va-lor de \TS1/cmr/m/it/12 $\OT1/cmr/m/it/12 140,000.00
- []
-
-LaTeX Info: Redefining \. on input line 290.
-LaTeX Info: Redefining \% on input line 290.
-[15])
-LaTeX Info: Redefining \. on input line 27.
-LaTeX Info: Redefining \% on input line 27.
- [16]
-\openout2 = `"Unidad 6.aux"'.
-
- (./Unidad 6.tex
 Cap\'{\i }tulo 5.
-[17
-
-
-
-
-])
+[15])
 LaTeX Info: Redefining \. on input line 28.
 LaTeX Info: Redefining \% on input line 28.
 
-Overfull \hbox (36.6234pt too wide) has occurred while \output is active
-\OT1/cmr/m/n/12 18 \OT1/cmr/m/sl/12 CAP[]ITULO 5.  EVALUCAI[]ON ECONOMICA Y ANALISIS DE SENSIBILIDAD
+Overfull \hbox (18.19623pt too wide) has occurred while \output is active
+\OT1/cmr/m/n/10 16 \OT1/cmr/m/sl/10 CAP[]ITULO 5.  EVALUCAI[]ON ECONOMICA Y ANALISIS DE SENSIBILIDAD
  []
 
-[18]
+[16]
 \openout2 = `FODA.aux'.
 
  (./FODA.tex
 Ap\'{e}ndice A.
-) [19
+) [17
 
 
 
@@ -453,18 +445,18 @@ Package rerunfilecheck Info: File `raiz.out' has not changed.
 (rerunfilecheck)             Checksum: 7CAA30A2667C5B5F257F8F41564EB046;4035.
  ) 
 Here is how much of TeX's memory you used:
- 11390 strings out of 474222
- 177943 string characters out of 5748732
- 1938975 words of memory out of 5000000
- 33398 multiletter control sequences out of 15000+600000
- 569637 words of font info for 74 fonts, out of 8000000 for 9000
+ 11389 strings out of 474222
+ 177880 string characters out of 5748732
+ 1941975 words of memory out of 5000000
+ 33395 multiletter control sequences out of 15000+600000
+ 569326 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,18n,79p,407b,806s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on raiz.pdf (23 pages, 210880 bytes).
+ 75i,18n,79p,407b,601s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb>
+Output written on raiz.pdf (21 pages, 241354 bytes).
 PDF statistics:
- 344 PDF objects out of 1000 (max. 8388607)
- 286 compressed objects within 3 object streams
- 72 named destinations out of 1000 (max. 500000)
+ 356 PDF objects out of 1000 (max. 8388607)
+ 292 compressed objects within 3 object streams
+ 70 named destinations out of 1000 (max. 500000)
  193 words of extra memory for PDF output out of 10000 (max. 10000000)
 
