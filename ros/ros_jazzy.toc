@@ -1,0 +1,7 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {chapter}{\numberline {1}Lo básico y comandos}{2}{chapter.1}%
+\contentsline {section}{\numberline {1.1}rqt}{2}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Nodos}{2}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Tópicos}{2}{section.1.3}%
+\contentsline {chapter}{\numberline {A}Abrir ros jazzy}{4}{appendix.Alph1}%
+\contentsline {chapter}{\numberline {B}Problemas con el qsocket}{5}{appendix.Alph2}%

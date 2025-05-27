@@ -1,0 +1,98 @@
+\documentclass{report}
+\usepackage[hidelinks]{hyperref}
+\usepackage[spanish]{babel}
+\usepackage[left=1.6cm, right=1.6cm, top=1.5cm, bottom=2cm]{geometry} % Margenes personalizados
+
+\author{Rodrigo}
+\title{ROS Jazzy}
+\date{2025}
+
+\begin{document}
+\maketitle
+\tableofcontents
+\chapter{Lo básico y comandos}
+Para listar cosas usar "list"
+\begin{itemize}
+    \item \texttt{ros2 node list} - Lista los nodos activos en el sistema.
+    \item \texttt{ros2 topic list} - Muestra los tópicos activos que están siendo publicados o suscritos.
+    \item \texttt{ros2 service list} - Lista los servicios disponibles en el sistema.
+    \item \texttt{ros2 action list} - Muestra las acciones disponibles en el sistema.
+\end{itemize}
+
+\section{rqt}
+Es una GUI para manipular ROS de forma mas visual, todo lo que puede hacer se puede hacer desde la 
+terminal.
+
+Se inicia poniendo \texttt{rqt} en la terminal con  para mostrar algo en rqt hay que poner
+Plugins > Services > Service Caller desde la barra de menu.
+
+\section{Nodos}
+Los nodos se encargan de una tarea especifica, para ver que nodos hay activos se usa el comando:
+\\\texttt{ros2 node list}
+\\Para obtener todo el desglose del nodo se usa:
+\\\texttt{ros2 node info <nombre del nodo>}
+
+Esto regresa los siguientes tipos de información:
+\begin{itemize}
+    \item subscribers
+    \item publishers
+    \item services
+    \item actions
+\end{itemize}
+
+\section{Tópicos}
+Los tópicos son los canales de comunicación entre nodos, los nodos pueden publicar mediante los tópicos
+o pueden suscribirse a ellos para recibir mensajes de otros nodos. Un nodo puede publicar y suscribirse
+al mismo tiempo, la comunicación entre nodos no solo es uno a uno, sino también uno a muchos o muchos
+muchos.
+\\Para ver que tópicos hay activos se usa el comando:
+\\\texttt{ros2 topic list} - Muestra los tópicos activos.
+\\Se puede agregar el parámetro \texttt{-t} para mostrar el tipo del tópico.
+\\\texttt{ros2 topic list -t} - Muestra los tópicos activos y su tipo.
+\\Para ver a quien publica y quienes están suscritos se usa:
+\\\texttt{ros2 topic info <nombre del tópico>} - Muestra la información del tópico.
+
+También se pueden visualizar estas interacciones usando rqt, ya sea con \texttt{rqt} o \texttt{rqt\_graph},
+desde rqt se puede llegar a graph con Plugins $>$ Introspection $>$ Node Graph.
+
+Usando el comando:
+\\\texttt{ros2 topic echo <nombre del tópico>}
+\\Se puede ver el contenido del tópico mientras
+se publica, esto es útil para ver que mensajes se están enviando y recibiendo en tiempo real.
+\\Mediante el comando:
+\\\texttt{ros2 interface show <nombre del tipo del tópico>}
+\\Se puede ver la estructura del mensaje que se está enviando por el tópico.
+
+Para publicar un mensaje se utiliza:
+\\\texttt{ros2 topic pub <nombre del tópico> <tipo del mensaje> <mensaje>}
+\\El mensaje se debe escribir en formato YAML, no es necesario escribir siempre todo el mensaje, solo de 
+las partes que se van a modificar. Al enviar un mensaje vacío (sin la parte de mensaje) se envía el
+mensaje por defecto.
+\\Se puede usar el \textit{TAB} para autocompletar y ver opciones disponibles. Por defecto el mensaje
+se envía en bucle infinito pero si se quiere enviar solo una vez se puede agregar el parámetro \texttt{--once}
+\\\texttt{ros2 topic pub --once --w n <nombre del tópico> <tipo del mensaje> <mensaje>}
+\\El parámetro \texttt{--w} n, es opcional pero indica que se esperan n numero de suscriptores antes
+de enviar el mensaje.
+
+La frecuencia de las publicaciones puede ver con el comando:
+\\\texttt{ros2 topic hz <nombre del tópico>}
+\\También se puede establecer la frecuencia agregando el parámetro \texttt{--rate <frecuencia>},
+la frecuencia es en Hz.
+\\\texttt{ros2 topic pub --rate <frecuencia> <nombre del tópico> <tipo del mensaje> <mensaje>}
+
+Se puede monitorear el ancho de banda ocupado por un tópico con:
+\\\texttt{ros2 topic bw <nombre del tópico>}
+
+Además de pueden rastrear los tópicos que son de la tal tipo con:
+\\\texttt{ros2 topic find <tipo del tópico>}
+
+\appendix
+\chapter{Abrir ros jazzy}
+Para sourcear o lo equivalente a iniciarlo o abrirlo, se usa:
+\\\texttt{source /opt/ros/jazzy/setup.bash}
+
+\chapter{Problemas con el qsocket}
+El wayland tiene problemas con el qsocket, hay que cambiar a x11 para resolver estos problemas.
+\\Activar x11: \texttt{export QT\_QPA\_PLATFORM=xcb}
+\\Para desactivar si es necesario: \texttt{unset QT\_QPA\_PLATFORM}
+\end{document}
